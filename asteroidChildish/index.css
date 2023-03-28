@@ -1,0 +1,30 @@
+#space {
+    border: 3px solid black;
+    width: 500px;
+    height: 500px;
+    background-image: url("https://cdn.theatlantic.com/thumbor/EmW-E0FwUa0MhOoGk0BXYyBiBm0=/0x0:1718x1718/1718x1718/media/files/est/space-calculator/background6.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+#planet {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: 400px;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: large;
+    color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+}
